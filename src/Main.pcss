@@ -1,0 +1,53 @@
+@import 'variables.pcss';
+
+:root {
+  --bg-color: #F1F3F4;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--text-color-primary);
+  font-family: var(--font-primary);
+  font-weight: var(--weight-regular);
+  margin: 0;
+  line-height: 1.5;
+}
+
+input, textarea, select {
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: var(--weight-medium);
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: calc(var(--size-base) * 2.5);
+}
+h2 {
+  font-size: calc(var(--size-base) * 2);
+}
+h3 {
+  font-size: calc(var(--size-base) * 1.75);
+}
+h4 {
+  font-size: calc(var(--size-base) * 1.5);
+}
+h5 {
+  font-size: calc(var(--size-base) * 1.25);
+}
+h6 {
+  font-size: var(--size-base);
+}
