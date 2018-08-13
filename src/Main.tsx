@@ -15,7 +15,7 @@ class Main
     private onLoad()
     {
         ReactDOM.render(
-            <Content message={'Clicked!'}/>,
+            <Content/>,
             document.getElementById('main')
         );
     }
