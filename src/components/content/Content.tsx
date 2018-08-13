@@ -1,6 +1,6 @@
 import * as React from 'react';
 import * as style from './Content.pcss';
-import ResponsiveImage from 'lib/react-image/src';
+import ResponsiveImage from 'lib/react-responsive-image/src';
 import {PureComponent} from 'react';
 import {Images} from '../../types';
 /**
