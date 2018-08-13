@@ -5,6 +5,7 @@
     "prebuild": "yarn clean-public",
     "build": "webpack --config webpack.config.prod.js",
     "deploy": "babel-node ./tasks/deploy.js",
+    "make-images": "babel-node ./tasks/make-images.js 'assets/images.json'",
     "clean-cache": "babel-node ./tasks/clean-cache.js",
     "clean-public": "babel-node ./tasks/clean-public.js",
     "test": "jest --coverage",
