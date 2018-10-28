@@ -1,0 +1,30 @@
+[
+  {
+    "src": "assets/room1.jpg",
+    "dest": "public/assets/",
+    "quality": 85,
+    "sizes": [
+      {"resize": "400", "suffix": "_400w"},
+      {"resize": "525", "suffix": "_525w"},
+      {"resize": "700", "suffix": "_700w"},
+      {"resize": "800", "suffix": "_800w-2x"},
+      {"resize": "1050", "suffix": "_1050w-2x"},
+      {"resize": "1400", "suffix": "_1400w-2x"},
+      {"resize": "100", "suffix": "_thumb", "blur": "0x1.5"}
+    ]
+  },
+  {
+    "src": "assets/room2.jpg",
+    "dest": "public/assets/",
+    "quality": 85,
+    "sizes": [
+      {"resize": "400", "suffix": "_400w"},
+      {"resize": "525", "suffix": "_525w"},
+      {"resize": "700", "suffix": "_700w"},
+      {"resize": "800", "suffix": "_800w-2x"},
+      {"resize": "1050", "suffix": "_1050w-2x"},
+      {"resize": "1400", "suffix": "_1400w-2x"},
+      {"resize": "100", "suffix": "_thumb", "blur": "0x1.5"}
+    ]
+  }
+]

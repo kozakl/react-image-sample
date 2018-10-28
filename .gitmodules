@@ -1,0 +1,3 @@
+[submodule "lib/react-responsive-image"]
+	path = lib/react-responsive-image
+	url = git@github.com:kozakl/react-responsive-image.git

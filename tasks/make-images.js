@@ -2,7 +2,7 @@ import gm from 'gm';
 import fs from 'fs-extra';
 import path from 'path';
 
-const filters = ['.jpg', 'jpeg', '.png', '.gif'],
+const filters = ['.jpg', '.jpeg', '.png', '.gif'],
       buffer = fs.readFileSync(process.argv[2], 'utf8'),
       images = JSON.parse(buffer).values();
 makeImage(images.next().value);
